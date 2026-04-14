@@ -48,10 +48,10 @@ Rules:
     return response.choices[0].message.content
 
 # UI
-st.set_page_config(page_title="Marathi Medical Translator", page_icon="🏥")
+st.set_page_config(page_title="VaidyaSetu", page_icon="🏥")
 
-st.title("🏥 Marathi Medical Translator")
-st.subheader("Converts local Marathi dialect to medical English for doctors")
+st.title("🏥 VaidyaSetu")
+st.subheader("Bridging language gaps between patients and doctors")
 
 st.divider()
 
